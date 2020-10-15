@@ -2,6 +2,13 @@
 <script>
   import { onMount } from 'svelte';
 
+  export let isPointer // cursor: pointer
+
+  const cursors = {
+    default: "/build/cursor.png",
+    pointer: "/build/pointer.png"
+  }
+
   let imgRef = null
 
   let mouseX = 0
@@ -15,6 +22,8 @@
 
   let queueX = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   let queueY = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+  $: src = isPointer ? cursors.pointer : cursors.default
 
   const onMouseMove = event => {
     //console.log(event)
@@ -66,7 +75,7 @@
 
 <svelte:window on:mousemove={onMouseMove}/>
 
-<img class:active={active} alt="pointer" bind:this={imgRef} src="/build/pointer.png" />
+<img class:active={active} alt="pointer" bind:this={imgRef} src={src} />
 
 <style>
   img {
@@ -78,7 +87,8 @@
   }
 
   img:not(.active) {
-    display: none;
+    /*display: none;*/
+    z-index: -10;
   }
 
   :global(*, *:hover) {

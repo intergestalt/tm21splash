@@ -1,14 +1,14 @@
 <script>
   import Logo from './Logo.svelte'
   
-  export let headerClicked, onClick
+  export let headerClicked, onClick, toggleHovering
 
   $: text = headerClicked ? "for refusal" : "transmediale"
 
 </script>
 
 <h1>
-  <span on:click={onClick} class:clicked={headerClicked}>
+  <span on:click={onClick} class:clicked={headerClicked} on:mouseenter={()=>toggleHovering(true)} on:mouseleave={()=>toggleHovering(false)}>
     {text}
   </span>
   {#if !headerClicked}

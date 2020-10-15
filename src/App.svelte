@@ -23,6 +23,7 @@
 	let moverOffset = 0
 	let headerClicked = false
 	let language = "en"
+	let hovering = false
 
 	let width = window.innerWidth
 	let height = window.innerHeight
@@ -34,9 +35,11 @@
 	}
 	const onClick = () => {
 		headerClicked = true
+		toggleHovering(false)
 		setTimeout(updateDimensions, 1)
 	}
 	const setLanguage = l => language = l
+	const toggleHovering = toggle => hovering = toggle
 
 	const updateDimensions = function() {
 		scrollTopMax = main.scrollHeight - main.offsetHeight
@@ -65,7 +68,7 @@
 <svelte:window on:resize={updateDimensions}/>
 
 <main bind:this={main} on:scroll={ onScroll }>
-	<Pointer />
+	<Pointer isPointer={hovering}/>
 	{#if false}
 		<Info {scrollTop} {scrollTopMax} {moverHeight} />
 	{/if}
@@ -95,7 +98,7 @@
 		</div>
 		<div class="spacer" style="height: {height*scrollSlownessFactor}px"></div>
 	{:else}
-	<Header {onClick} {headerClicked}/>
+	<Header {onClick} {headerClicked} {toggleHovering}/>
 	{/if}
 </main>
 
