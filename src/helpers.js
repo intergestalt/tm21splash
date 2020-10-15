@@ -27,8 +27,8 @@ const makePoint = (p, corners) => {
 }
 
 const generatePoints = (width, height, pos) => {
-  const wobbleSlowness = 300 * (400 / (width + height))
-  const wobbleAmount = 150 * (400 / (width + height))
+  const wobbleSlowness = (width + height)
+  const wobbleAmount = 200 * (400 / (width + height))
 
   const corners = [
     0,
@@ -81,8 +81,8 @@ const generatePoints = (width, height, pos) => {
   //]
 
   return initialPointsPos.map(
-    (init, index) => makePoint(init + pos, corners)
-    //(init, index) => makePoint(init + wobbled(pos, wobbleSlowness, (index % 2) * wobbleAmount), corners)
+    //(init, index) => makePoint(init + pos, corners)
+    (init, index) => makePoint(init + wobbled(pos, wobbleSlowness, (index % 2) * wobbleAmount), corners)
   )
 }
 
