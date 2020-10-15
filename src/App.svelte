@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
+	import GlobalStyle from './GlobalStyle.svelte' // import global styles
 	import Info from './Info.svelte'
 	import Overlay from './Overlay.svelte'
 	import Header from './Header.svelte'

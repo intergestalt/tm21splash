@@ -5,10 +5,10 @@
 <footer>
 
   <p class="links1">
-    <a href="#">News</a>
-    <a href="#">Press</a>
-    <a href="#">Newsletter</a>
-    <a href="#">Telegram</a>
+    <a href="/">News</a>
+    <a href="/">Press</a>
+    <a href="/">Newsletter</a>
+    <a href="/">Telegram</a>
   </p>
 
   <p>
@@ -25,8 +25,8 @@
   </p>
   
   <p class="links2">
-    <a href="#">Data privacy</a>
-    <a href="#">Imprint</a>
+    <a href="/">Data privacy</a>
+    <a href="/">Imprint</a>
   </p>
 
 </footer>
