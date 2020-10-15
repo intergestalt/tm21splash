@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 
 	import GlobalStyle from './GlobalStyle.svelte' // import global styles
+	import Pointer from './Pointer.svelte'
 	import Info from './Info.svelte'
 	import Overlay from './Overlay.svelte'
 	import Header from './Header.svelte'
@@ -12,6 +13,7 @@
 	import Footer from './Footer.svelte'
 
 	const scrollVisibleLimit = 20
+	const scrollSlownessFactor = 16
 
 	let main, mover = null
 	let scrollTop = 0
@@ -63,6 +65,7 @@
 <svelte:window on:resize={updateDimensions}/>
 
 <main bind:this={main} on:scroll={ onScroll }>
+	<Pointer />
 	{#if false}
 		<Info {scrollTop} {scrollTopMax} {moverHeight} />
 	{/if}
@@ -90,7 +93,7 @@
 			</section>
 			<Footer />
 		</div>
-		<div class="spacer" style="height: {height*10}px"></div>
+		<div class="spacer" style="height: {height*scrollSlownessFactor}px"></div>
 	{:else}
 	<Header {onClick} {headerClicked}/>
 	{/if}
