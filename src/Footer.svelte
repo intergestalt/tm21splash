@@ -54,4 +54,7 @@
   .links2 {
     padding-top: 1.5em
   }
+  a {
+    pointer-events: all;
+  }
 </style>

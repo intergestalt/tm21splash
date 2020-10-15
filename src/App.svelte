@@ -13,9 +13,12 @@
 
 	const scrollVisibleLimit = 20
 
-	let main
+	let main, mover = null
 	let scrollTop = 0
 	let scrollTopMax = 0
+	let moverHeight = 0
+	let mainHeight = 0
+	let moverOffset = 0
 	let headerClicked = false
 	let language = "en"
 
@@ -24,15 +27,19 @@
 
 	const onScroll = e => {
 		scrollTop = e.target.scrollTop
+		const scrollRel = scrollTop/scrollTopMax
+		moverOffset = -scrollRel * (moverHeight-height)
 	}
 	const onClick = () => {
 		headerClicked = true
-		setTimeout(updateDimensions, 30)
+		setTimeout(updateDimensions, 1)
 	}
 	const setLanguage = l => language = l
 
 	const updateDimensions = function() {
 		scrollTopMax = main.scrollHeight - main.offsetHeight
+		mainHeight = main.offsetHeight
+		moverHeight = mover.offsetHeight
 		width = window.innerWidth
 		height = window.innerHeight
 	}
@@ -55,28 +62,37 @@
 
 <svelte:window on:resize={updateDimensions}/>
 
-<main bind:this={main} on:scroll={ onScroll } >
-	<Info {scrollTop} {scrollTopMax} />
-	<Header {onClick} {headerClicked} />
+<main bind:this={main} on:scroll={ onScroll }>
+	{#if false}
+		<Info {scrollTop} {scrollTopMax} {moverHeight} />
+	{/if}
 	{#if headerClicked}
 		<Language visible={scrollTop < scrollVisibleLimit} {setLanguage} {language} />
 		<Arrow visible={scrollTop < scrollVisibleLimit} />
 		<Overlay {scrollTop} {scrollTopMax} {width} {height} inverted />
-		<h2>
-			transmediale
-			<br />
-			2021–22
-			<br />
-			for refusal
-		</h2>
-		<section>
-			{#if language === "en"}
-				<TextEN />
-			{:else}
-				<TextDE />
-			{/if}
-		</section>
-		<Footer />
+		<div class="mover" bind:this={mover} style="top: {moverOffset}px">
+			<div style="height: {height}px;">
+				<Header {onClick} {headerClicked}/>
+			</div>
+			<h2>
+				transmediale
+				<br />
+				2021–22
+				<br />
+				for refusal
+			</h2>
+			<section>
+				{#if language === "en"}
+					<TextEN />
+				{:else}
+					<TextDE />
+				{/if}
+			</section>
+			<Footer />
+		</div>
+		<div class="spacer" style="height: {height*10}px"></div>
+	{:else}
+	<Header {onClick} {headerClicked}/>
 	{/if}
 </main>
 
@@ -94,6 +110,12 @@
 
 	section {
 		padding: 0 10vw;
+	}
+
+	.mover {
+		will-change: transform;
+		position: fixed;
+		pointer-events: none;
 	}
 
 	@media (max-width: 500px) {
