@@ -8,6 +8,7 @@
 	import Arrow from './Arrow.svelte'
 	import TextEN from './TextEN.svelte'
 	import TextDE from './TextDE.svelte'
+	import Footer from './Footer.svelte'
 
 	const scrollVisibleLimit = 20
 
@@ -65,7 +66,7 @@
 			<br />
 			2021–22
 			<br />
-			for refusal 
+			for refusal
 		</h2>
 		<section>
 			{#if language === "en"}
@@ -74,6 +75,7 @@
 				<TextDE />
 			{/if}
 		</section>
+		<Footer />
 	{/if}
 </main>
 
