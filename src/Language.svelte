@@ -36,6 +36,12 @@
   li {
     display: inline;
     white-space: pre;
+    position: relative;
+    bottom: 0.1ex;
+  }
+  abbr {
+    position: relative;
+    top: 0.1ex;
   }
   li.active {
     border-bottom: solid 0.2ex;
