@@ -5,6 +5,7 @@
 	import Pointer from './Pointer.svelte'
 	import Info from './Info.svelte'
 	import Overlay from './Overlay.svelte'
+	import OverlayGradient from './OverlayGradient.svelte'
 	import Header from './Header.svelte'
 	import Language from './Language.svelte'
 	import Arrow from './Arrow.svelte'
@@ -38,7 +39,10 @@
 		toggleHovering(false)
 		setTimeout(updateDimensions, 1)
 	}
-	const setLanguage = l => language = l
+	const setLanguage = l => {
+		language = l
+		setTimeout(updateDimensions, 1)
+	}
 	const toggleHovering = toggle => hovering = toggle
 
 	const updateDimensions = function() {
@@ -69,8 +73,8 @@
 
 <main bind:this={main} on:scroll={ onScroll }>
 	<Pointer isPointer={hovering}/>
-	{#if false}
-		<Info {scrollTop} {scrollTopMax} {moverHeight} />
+	{#if 0}
+		<Info {scrollTop} {scrollTopMax} {moverHeight} {width} {height}/>
 	{/if}
 	{#if headerClicked}
 		<Language visible={scrollTop < scrollVisibleLimit} {setLanguage} {language} />
@@ -94,7 +98,7 @@
 					<TextDE />
 				{/if}
 			</section>
-			<Footer />
+			<Footer {language} />
 		</div>
 		<div class="spacer" style="height: {height*scrollSlownessFactor}px"></div>
 	{:else}

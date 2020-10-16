@@ -1,8 +1,9 @@
 <script>
-  export let scrollTop, scrollTopMax, moverHeight
+  export let scrollTop, scrollTopMax, moverHeight, width, height
 </script>
 
 <div>
+  AR={width/height}, {width}x{height}<br />
   {scrollTop/scrollTopMax} = {scrollTop}/{scrollTopMax}<br />
   {moverHeight}
 </div>

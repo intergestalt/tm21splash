@@ -1,42 +1,48 @@
 <p>
-  DE The dilemma for refusal has never felt quite so urgent. Easily misunderstood
-  as a gesture of inaction and passivity where nothing happens, a refusal
-  instead can be an insistence on an alternative or a demand for reform. From
-  boycotts to strikes to collective or individual withdrawals, the long and
-  paradoxical history of refusal suggests political and social imaginaries
-  that say more than a mere no. As an act that often carries with it both risk
-  and promise, a refusal opens up possibilities for worlds that can and should
-  be. 
+  Das Dilemma der Verweigerung hat zunehmend an Dringlichkeit gewonnen. Leicht
+  missverstanden als Geste der Untätigkeit und Passivität versinnbildlicht
+  Verweigerung vielmehr das Beharren auf Alternativen oder eine Forderung nach
+  Reformen. Von Boykotten über Streiks bis hin zum kollektiven oder
+  individuellen Rückzug – die lange und paradoxe Geschichte der Verweigerung
+  legt politische und soziale Vorstellungen nahe, die mehr als ein bloßes Nein-
+  Sagen bedeuten. Als eine Haltung, die sowohl Risiko als auch Verheißung in
+  sich birgt, eröffnet Verweigerung ein Spektrum an Möglichkeiten für Welten,
+  wie sie zukünftig sein können.
 </p>
 <p>
-  The task of refusing is not without its difficulties – it is made up of
-  compromise and friction, and demands for acting and imagining in ways that
-  lie outside the status quo. Manifesting in many forms, a refusal can call
-  attention to uncommon and messy practices, crucial to the critique and
-  reinvention of our material world. For some, refusal is a luxury that stems
-  from an advantage; for others, it manifests from regressive, reactionary
-  politics. Too often refusal is a stance adopted after years of exile,
-  exclusion, or oppression. It asks for multiplicity, difference, and
-  co-existence, rather than fixed systems of logic that organise and tie
-  socio-political lives to undeclared algorithmic biases and Imperial
-  histories. While striving to open narrow political possibilities, refusal is
-  motivated by the hope of building new commitments and relations.  
+  Der Akt der Verweigerung ist jedoch kein leichter – er beruht auf Reibungen
+  und Kompromissen, erfordert Handlungen und ein Vorstellungsvermögen, das
+  außerhalb des Status quo denkt. Was die unterschiedlichen Formen von
+  Verweigerung eint, ist ihr Potenzial, Aufmerksamkeit auf ungewöhnliche und
+  chaotische Praktiken zu lenken, die für eine Kritik und Neuerfindung unserer
+  materiellen Welt von entscheidender Bedeutung sind. Für manche ist
+  Verweigerung ein Luxus; für andere ist sie eine Antwort auf regressive,
+  reaktionäre Politik. Allzu oft ist Verweigerung eine Haltung, die nach Jahren
+  des Exils, der Ausgrenzung oder Unterdrückung eingenommen wird. Verweigerung
+  verlangt nach Vielfältigkeit, Differenz und Koexistenz und nicht nach festen
+  Logiksystemen, die das gesellschaftspolitische Leben restringieren und
+  algorithmische Biases mit kolonialen Geschichten verknüpfen. Danach strebend
+  traditionelle politische Narrationen zu durchbrechen, ist Verweigerung durch
+  Hoffnung auf alternative Formen der Gemeinschaft und neue Verantwortlichkeiten
+  motiviert.
 </p>
 <p>
-  From the small acts of refusal that reside in the mundane and everyday, to
-  tender forms of resistance that allow us to repair collective
-  infrastructure, transmediale 2021–22 will map out the political agency of
-  refusal, examining its potential to form new socio-political realities
-  grounded in care, hope, and desire. 
+  Von kleinen Akten der Verweigerung im Alltäglichen bis hin zu sanften Formen
+  des Widerstandes, die es uns ermöglichen kollektive Infrastrukturen zu
+  überdenken, entwirft die transmediale 2021–22 politische
+  Handlungsmöglichkeiten der Verweigerung und untersucht ihr Potenzial neue
+  sozio-politische Realitäten zu formen, die auf Fürsorge, Hoffnung und Begehren
+  beruhen.
 </p>
 <p>
-  Taking place over the course of a year, the upcoming edition of transmediale
-  will present a collection of exhibitions, screenings, and discourse
-  programmes, which, along with residencies, workshops, and commissions, will
-  explore the material, technological, and cultural aspects of refusal.
-  Unfolding via online and in-person events, this new expanded structure,
-  formulated in response to COVID-19, will create a year-long engagement with
-  the festival theme. The festival begins January 23rd, 2021 with an
-  exhibition across three venues in Berlin and the launch of an online
-  programme on the festival’s website.
+  Durch eine erweiterte Struktur wird sich die kommende Ausgabe der transmediale
+  in einem fortlaufenden Programm über ein Jahr entwickeln. Neben
+  Künstler*innenresidenzen, Workshops und Auftragsarbeiten präsentiert das
+  Einjahres-Festival Ausstellungen, Screenings sowie ein Diskursprogramm, um
+  sich nachhaltig mit den materiellen, technologischen und kulturellen Aspekten
+  von Verweigerung auseinanderzusetzen. Diese neue, auch als Antwort auf
+  COVID-19 formulierte Struktur, findet in Form von verschiedenen
+  Veranstaltungsformaten in Berlin und online statt. Das Festivaljahr beginnt am
+  23. Januar 2021 mit einer Ausstellung an drei Veranstaltungsorten in Berlin
+  und dem Launch eines Online-Programms auf der Festival- Webseite.
 </p>
