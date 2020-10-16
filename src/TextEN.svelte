@@ -12,14 +12,14 @@
   compromise and friction, and demands for acting and imagining in ways that lie
   outside the status quo. Manifesting in many forms, a refusal can call
   attention to uncommon and messy practices, crucial to the critique and
-  reinvention of our material world. For some, refusal is a luxury that stems
+  reinvention of our material world. For some, refusal is a luxury that stems
   from an advantage; for others, it manifests from regressive, reactionary
   politics. Too often refusal is a stance adopted after years of exile,
-  exclusion, or oppression. It asks for multiplicity, difference, and
+  exclusion, or oppression. It asks for multiplicity, difference, and
   co-existence, rather than fixed systems of logic that organise and tie
-  socio-political lives to undeclared algorithmic biases and Imperial
-  histories. While striving to open narrow political possibilities, refusal is
-  motivated by the hope of building new commitments and relations.  
+  socio-political lives to undeclared algorithmic biases and colonial histories.
+  While striving to open narrow political possibilities, refusal is motivated by
+  the hope of building new commitments and relations.
 </p>
 <p>
   From the small acts of refusal that reside in the mundane and everyday, to
