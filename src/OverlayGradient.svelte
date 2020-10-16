@@ -17,7 +17,7 @@
   const straightOffset = 6
   const straightBlur = 10
 
-  const queerOffset = Math.tan(width/height) * 8
+  const queerOffset = 20
   const queerBlur = 10
 
   const gradient_step_1a = 100 - queerOffset + "%"
