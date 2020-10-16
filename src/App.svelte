@@ -77,18 +77,20 @@
 
 <svelte:window on:resize={updateDimensions}/>
 
-<main bind:this={main} on:scroll={ onScroll }>
+<main bind:this={main} on:scroll={ onScroll } class:headerClicked={headerClicked}>
 	<Pointer isPointer={hovering}/>
 	{#if 0}
 		<Info {scrollTop} {scrollTopMax} {moverHeight} {width} {height}/>
 	{/if}
-	{#if headerClicked}
+		<div class="headerOverlay" style="display: { headerClicked ? "none" : "block"}">
+			<Header {onClick} headerClicked={false} {toggleHovering}/>
+		</div>
 		<Language visible={scrollTop < scrollVisibleLimit} {setLanguage} {language} />
 		<Arrow visible={scrollTop < scrollVisibleLimit} />
 		<OverlayGradient {scrollTop} {scrollTopMax} {width} {height} inverted />
 		<div class="mover" bind:this={mover} style="top: {moverOffset}px">
 			<div style="height: {height}px;">
-				<Header {onClick} {headerClicked}/>
+				<Header headerClicked={true}/>
 			</div>
 			<h2>
 				transmediale
@@ -107,9 +109,6 @@
 			<Footer {language} />
 		</div>
 		<div class="spacer" style="height: {height*scrollSlownessFactor}px"></div>
-	{:else}
-	<Header {onClick} {headerClicked} {toggleHovering}/>
-	{/if}
 </main>
 
 <style>
@@ -118,6 +117,20 @@
 		-webkit-overflow-scrolling: touch;
 		/*font-size: 14vw;*/
 		isolation: isolate;
+	}
+
+	main:not(.headerClicked) {
+		overflow: hidden;
+	}
+
+	.headerOverlay {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left:0;
+		top:0;
+		background-color: var(--color-min);
+		z-index: 1000;
 	}
 
 	h2 {
