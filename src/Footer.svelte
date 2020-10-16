@@ -26,11 +26,6 @@
       en: "https://t.me/transmediale",
       de: "https://t.me/transmediale"
     },
-    {
-      title: "See all our supporters",
-      en: "https://transmediale.de/partners",
-      de: "https://transmediale.de/de/partners "
-    },
   ]
   const links2 = [
     {
@@ -43,7 +38,12 @@
       en: "https://transmediale.de/imprint",
       de: "https://transmediale.de/de/imprint"
     }
-  ];
+  ]
+  const supportersLink = {
+      title: "See all our supporters",
+      en: "https://transmediale.de/partners",
+      de: "https://transmediale.de/de/partners "
+    }
 
   const t = link => link[language]
 </script>
@@ -94,10 +94,11 @@
 
   <p>
     The festival has been funded as a cultural institution of excellence by
-    Kulturstiftung des Bundes since 2004. Additional funding by Senatsverwaltung
+    Kulturstiftung des Bundes since 2004. <br />
+    Additional funding by Senatsverwaltung
     für Kultur Berlin, European Union’s Horizon 2020, Bundeszentrale für
-    politische Bildung and Medienboard Berlin Brandenburg. See all our
-    supporters.
+    politische Bildung and Medienboard Berlin Brandenburg.<br />
+    <A text={supportersLink.title} href={t(supportersLink)} />.
   </p>
 
   <p>
