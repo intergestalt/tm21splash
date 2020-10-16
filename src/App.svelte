@@ -1,6 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
 
+	import { hover } from './stores.js';
+
 	import GlobalStyle from './GlobalStyle.svelte' // import global styles
 	import Pointer from './Pointer.svelte'
 	import Info from './Info.svelte'
@@ -25,6 +27,10 @@
 	let headerClicked = false
 	let language = "en"
 	let hovering = false
+
+	const unsubscribe = hover.subscribe(value => {
+		hovering = value;
+	});
 
 	let width = window.innerWidth
 	let height = window.innerHeight
@@ -111,6 +117,7 @@
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
 		/*font-size: 14vw;*/
+		isolation: isolate;
 	}
 
 	h2 {
