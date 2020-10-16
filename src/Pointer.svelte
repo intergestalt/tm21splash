@@ -19,13 +19,19 @@
 
   let frame = null
   let active = false
+  let blocked = false
 
   let queueX = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   let queueY = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
   $: src = isPointer ? cursors.pointer : cursors.default
 
+  const onTouchStart = event => {
+    blocked = true
+  }
+
   const onMouseMove = event => {
+    if (blocked) return
     //console.log(event)
     //setMouseX(event.clientX)
     //setMouseY(event.clientY)
@@ -73,9 +79,9 @@
 
 </script>
 
-<svelte:window on:mousemove={onMouseMove}/>
+<svelte:window on:mousemove={onMouseMove} on:touchstart={onTouchStart}/>
 
-<img class:active={active} alt="pointer" bind:this={imgRef} src={src} />
+<img class:active={!blocked && active} alt="pointer" bind:this={imgRef} src={src} />
 
 <style>
   img {
@@ -89,6 +95,7 @@
   img:not(.active) {
     /*display: none;*/
     z-index: -10;
+    display:none;
   }
 
   :global(*, *:hover) {
