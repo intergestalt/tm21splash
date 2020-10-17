@@ -2,13 +2,13 @@
 
 # edit content
 
-1. edit content files [here](https://github.com/intergestalt/tm21splash/tree/master/src/content) and commit
-2. wait 40 seconds for the build, then check it [here](https://intergestalt.github.io/tm21splash/index.html)
+1. edit [content files](https://github.com/intergestalt/tm21splash/tree/master/src/content) and commit
+2. wait 40 seconds for the build, then check the [site preview](https://intergestalt.github.io/tm21splash/index.html)
 
 # deploy
 
-1. download the zip of the latest build [here](https://github.com/intergestalt/tm21splash/actions) unter artifacts
-2. upload to TM web server
+1. download the zip of the latest build from [github workflow results](https://github.com/intergestalt/tm21splash/actions) unter artifacts
+2. extract and upload the files to web server
 
 # develop
 
