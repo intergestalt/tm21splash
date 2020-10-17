@@ -11,8 +11,8 @@
 	import Header from './Header.svelte'
 	import Language from './Language.svelte'
 	import Arrow from './Arrow.svelte'
-	import TextEN from './TextEN.svelte'
-	import TextDE from './TextDE.svelte'
+	import TextEN from './content/TextEN.svelte'
+	import TextDE from './content/TextDE.svelte'
 	import Footer from './Footer.svelte'
 
 	const scrollVisibleLimit = 20

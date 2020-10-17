@@ -1,51 +1,9 @@
 <script>
-  import Ksb from "./Ksb.svelte";
-  import A from './A.svelte'
+  import FooterEN from './content/FooterEN.svelte'
+  import FooterDE from './content/FooterDE.svelte'
 
   export let language
 
-  const links1 = [
-    {
-      title: "News",
-      en: "https://transmediale.de/",
-      de: "https://transmediale.de/de"
-    },
-    {
-      title: "Press",
-      en: "https://transmediale.de/press",
-      de: "https://transmediale.de/de/press"
-    },
-    {
-      title: "Newsletter",
-    en: "https://transmediale.de/newsletter",
-    de: "https://transmediale.de/de/newsletter"
-    },
-    {
-      title: "Telegram",
-      newtab: true,
-      en: "https://t.me/transmediale",
-      de: "https://t.me/transmediale"
-    },
-  ]
-  const links2 = [
-    {
-      title: "Data Privacy",
-      en: "https://transmediale.de/data-privacy ",
-      de: "https://transmediale.de/de/data-privacy"
-    },
-    {
-      title: "Imprint",
-      en: "https://transmediale.de/imprint",
-      de: "https://transmediale.de/de/imprint"
-    }
-  ]
-  const supportersLink = {
-      title: "See all our supporters",
-      en: "https://transmediale.de/partners",
-      de: "https://transmediale.de/de/partners "
-    }
-
-  const t = link => link[language]
 </script>
 
 <style>
@@ -61,56 +19,24 @@
       line-height: 19px;
     }
   }
-  p {
+  :global(footer p) {
     margin-bottom: 1.5em;
   }
-  .links1 span:not(:first-child),
-  .links2 span:not(:first-child) {
+  :global(.links1 a:not(:first-child)),
+  :global(.links2 a:not(:first-child)) {
     margin-left: 1ex;
   }
-  .links2 {
+  :global(.links2) {
     padding-top: 1.5em;
-  }
-  a {
-    pointer-events: all;
   }
 </style>
 
 <footer>
 
-  <p class="links1">
-    {#each links1 as link}
-      <span>
-        <A text={link.title} href={t(link)} newtab={link.newtab} />
-      </span>
-    {/each}
-  </p>
-
-  <p>
-    transmediale e.V., Gerichstr. 35, D-13347 Berlin
-    <br />
-    +49 (0)30 959 994 231, info[at]transmediale.de
-  </p>
-
-  <p>
-    The festival has been funded as a cultural institution of excellence by
-    Kulturstiftung des Bundes since 2004. <br />
-    Additional funding by Senatsverwaltung
-    für Kultur Berlin, European Union’s Horizon 2020, Bundeszentrale für
-    politische Bildung and Medienboard Berlin Brandenburg.<br />
-    <A text={supportersLink.title} href={t(supportersLink)} />.
-  </p>
-
-  <p>
-    <Ksb />
-  </p>
-
-  <p class="links2">
-    {#each links2 as link}
-      <span>
-        <A text={link.title} href={t(link)} newtab={link.newtab} />
-      </span>
-    {/each}
-  </p>
+  {#if language === "en"}
+    <FooterEN />
+  {:else}
+    <FooterDE />
+  {/if}
 
 </footer>
