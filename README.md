@@ -2,7 +2,7 @@
 
 # edit content
 
-1. edit content files here and make a commit `https://github.com/intergestalt/tm21splash/tree/master/src/content`
+1. edit content files [here](https://github.com/intergestalt/tm21splash/tree/master/src/content) and commit
 2. wait 40 seconds for the build, then check it [here](https://intergestalt.github.io/tm21splash/index.html)
 
 # deploy
