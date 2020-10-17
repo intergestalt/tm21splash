@@ -87,5 +87,6 @@ const generatePoints = (width, height, pos) => {
 }
 
 export {
-  generatePoints
+  generatePoints,
+  wobbled
 }

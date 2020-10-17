@@ -1,11 +1,10 @@
 <script>
-
-  import { generatePoints} from './helpers.js'
-
-  export let scrollTop, scrollTopMax, width, height
+  export let scrollTop, scrollTopMax
   export const inverted = true
 
   let styleString = ""
+
+  const wobble = a => Math.sin(2*(a/180) * Math.PI)
 
   const gradients = {
     mint0 : "rgba(0, 255, 148, 0)",
@@ -30,15 +29,27 @@
   $: {
     pos = (scrollTop/scrollTopMax) * 180
 
+    const posArray = []
+    for (let i=0; i<8; i++) {
+      posArray.push( 
+        i * 10 * wobble(pos) + pos
+      )
+    }
+    //console.log(Math.floor(pos), Math.round(10*wobble(pos)), posArray.map(p=>Math.floor(p)))
+
     styleString = `
-    background: linear-gradient(${   30 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${  -30 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${  150 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${ -150 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${  180 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${    0 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${   90 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${  -90 + Math.floor(pos)}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} );      
+    background: linear-gradient(${   30 + Math.floor(posArray[0])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${  -30 + Math.floor(posArray[1])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${  150 + Math.floor(posArray[2])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${ -150 + Math.floor(posArray[3])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${  180 + Math.floor(posArray[4])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${    0 + Math.floor(posArray[5])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${   90 + Math.floor(posArray[6])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${  -90 + Math.floor(posArray[7])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${    0                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${  180                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${   90                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${  -90                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} );
       `
   }
 
