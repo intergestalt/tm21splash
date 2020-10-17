@@ -5,8 +5,8 @@
   export let isPointer // cursor: pointer
 
   const cursors = {
-    default: "/build/cursor.png",
-    pointer: "/build/pointer.png"
+    default: "build/cursor.png",
+    pointer: "build/pointer.png"
   }
 
   let imgRef = null
