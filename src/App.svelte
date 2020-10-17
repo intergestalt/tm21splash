@@ -87,7 +87,7 @@
 		</div>
 		<Language visible={scrollTop < scrollVisibleLimit} {setLanguage} {language} />
 		<Arrow visible={scrollTop < scrollVisibleLimit} />
-		<Overlay {scrollTop} {scrollTopMax} {width} {height} inverted />
+		<OverlayGradient {scrollTop} {scrollTopMax} {width} {height} inverted />
 		<div class="mover" bind:this={mover} style="top: {moverOffset}px">
 			<div style="height: {height}px;">
 				<Header headerClicked={true}/>
