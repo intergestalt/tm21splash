@@ -136,6 +136,15 @@
 
 	h2 {
 		text-align: center;
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	@media (max-width: 500px) {
+		h2 {
+			font-size: 22px;
+			line-height: 28px;		
+		}
 	}
 
 	section {

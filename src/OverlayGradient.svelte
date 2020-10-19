@@ -11,18 +11,22 @@
     mint1 : "rgba(0, 255, 148, 1)",
   }
 
-  const blur_radius = "5vmin"
 
   const straightOffset = 6
-  const straightBlur = 10
+  const straightBlur = 15
 
   const queerOffset = 20
-  const queerBlur = 10
+  const queerBlur = 15
+
+  const borderOffset = straightOffset / 2
+  const borderBlur = straightBlur / 2
 
   const gradient_step_1a = 100 - queerOffset + "%"
   const gradient_step_2a = 100 - queerOffset + queerBlur + "%"
   const gradient_step_1b = 100 - straightOffset + "%"
   const gradient_step_2b = 100 - straightOffset + straightBlur + "%"
+  const gradient_step_1c = 100 - borderOffset + "%"
+  const gradient_step_2c = 100 - borderOffset + borderBlur + "%"
 
   let slowness, pos, posMax, points, pointsString
 
@@ -46,10 +50,10 @@
                 linear-gradient(${    0 + Math.floor(posArray[5])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
                 linear-gradient(${   90 + Math.floor(posArray[6])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
                 linear-gradient(${  -90 + Math.floor(posArray[7])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${    0                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${  180                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${   90                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${  -90                          }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} );
+                linear-gradient(${    0                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} ),
+                linear-gradient(${  180                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} ),
+                linear-gradient(${   90                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} ),
+                linear-gradient(${  -90                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} );
       `
   }
 
