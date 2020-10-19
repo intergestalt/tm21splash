@@ -18,7 +18,7 @@
 
 <p>
   The festival has been funded as a cultural institution of excellence by
-  Kulturstiftung des Bundes since 2004. 
+  Kulturstiftung des Bundes (German Federal Cultural Foundation) since 2004. 
   Additional funding by Senatsverwaltung
   für Kultur Berlin, European Union’s Horizon 2020, Bundeszentrale für
   politische Bildung and Medienboard Berlin Brandenburg. 
