@@ -22,7 +22,7 @@
   Additional funding by Senatsverwaltung
   für Kultur Berlin, European Union’s Horizon 2020, Bundeszentrale für
   politische Bildung and Medienboard Berlin Brandenburg. 
-  <A text="See all our supporters" href="https://transmediale.de/partners" />.
+  <A text="See all our supporters" href="https://transmediale.de/partners" />
 </p>
 
 <p>
