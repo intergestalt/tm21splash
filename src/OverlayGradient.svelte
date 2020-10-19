@@ -13,13 +13,13 @@
 
 
   const straightOffset = 6
-  const straightBlur = 15
+  const straightBlur = 25
 
   const queerOffset = 20
   const queerBlur = 15
 
-  const borderOffset = straightOffset / 2
-  const borderBlur = straightBlur / 2
+  const borderOffset = straightOffset
+  const borderBlur = straightBlur
 
   const gradient_step_1a = 100 - queerOffset + "%"
   const gradient_step_2a = 100 - queerOffset + queerBlur + "%"
