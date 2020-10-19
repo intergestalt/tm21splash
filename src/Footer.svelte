@@ -12,11 +12,17 @@
     line-height: 25px;
     text-align: center;
     padding: 2.5em 10vw;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-content {
+    max-width: 1000px;
   }
   @media (max-width: 500px) {
     footer {
       font-size: 14px;
       line-height: 19px;
+      padding: 2.5em 20px;
     }
   }
   :global(footer p) {
@@ -32,11 +38,11 @@
 </style>
 
 <footer>
-
-  {#if language === "en"}
-    <FooterEN />
-  {:else}
-    <FooterDE />
-  {/if}
-
+  <div class="footer-content">
+    {#if language === "en"}
+      <FooterEN />
+    {:else}
+      <FooterDE />
+    {/if}
+  </div>
 </footer>

@@ -97,6 +97,7 @@
 				<br />
 				2021–22
 				<br />
+				<br />
 				for refusal
 			</h2>
 			<section>
@@ -135,7 +136,6 @@
 
 	h2 {
 		text-align: center;
-		font-weight: bold;
 	}
 
 	section {
@@ -150,7 +150,7 @@
 
 	@media (max-width: 500px) {
 		section {
-			/*padding: 0 20px;*/
+			padding: 0 20px;
 		}
 	}
 </style>

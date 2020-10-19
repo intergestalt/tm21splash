@@ -56,7 +56,7 @@
   }
 
   h2, p {
-    margin-bottom: 1.25em;
+    margin-bottom: 1.4em;
   }
 
   :root {

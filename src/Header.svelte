@@ -29,6 +29,11 @@
     position: relative;
   }
 
+  span {
+    position: relative;
+    top: 0.1em;
+  }
+
   span:not(.clicked) {
     cursor: pointer;
   }
