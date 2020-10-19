@@ -18,10 +18,12 @@
 
 <p>
   The festival has been funded as a cultural institution of excellence by
-  Kulturstiftung des Bundes (German Federal Cultural Foundation) since 2004.</ br> 
+  Kulturstiftung des Bundes (German Federal Cultural Foundation) since 2004.
+  <br />
   Additional funding by Senatsverwaltung
   für Kultur Berlin, European Union’s Horizon 2020, Bundeszentrale für
-  politische Bildung and Medienboard Berlin Brandenburg. </ br> 
+  politische Bildung and Medienboard Berlin Brandenburg.
+  <br />
   <A text="See all our supporters" href="https://transmediale.de/partners" />
 </p>
 
