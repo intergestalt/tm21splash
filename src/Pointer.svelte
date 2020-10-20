@@ -2,7 +2,7 @@
 <script>
   import { onMount } from 'svelte';
 
-  export let isPointer // cursor: pointer
+  export let isPointer, width, height // cursor: pointer
 
   const cursors = {
     default: "build/cursor.png",
@@ -20,9 +20,17 @@
   let frame = null
   let active = false
   let blocked = false
+  let hasLeft = false
 
   let queueX = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   let queueY = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+  const initQueue = (x,y) => {
+    queueX = queueX.map(() => x)
+    queueY = queueY.map(() => y)
+    lastX = x
+    lastY = y
+  }
 
   $: src = isPointer ? cursors.pointer : cursors.default
 
@@ -32,7 +40,16 @@
 
   const onMouseMove = event => {
     if (blocked) return
-    //console.log(event)
+    const newHasLeft = (
+      event.clientX + event.movementX <= 0 ||
+      event.clientX + event.movementX >= width ||
+      event.clientY + event.movementY <= 0 ||
+      event.clientY + event.movementY >= height
+    )
+    if (hasLeft && !newHasLeft) { // coming in
+      initQueue(event.clientX, event.clientY)
+    }
+    hasLeft = newHasLeft
     //setMouseX(event.clientX)
     //setMouseY(event.clientY)
     mouseX = event.clientX
@@ -81,7 +98,7 @@
 
 <svelte:window on:mousemove={onMouseMove} on:touchstart={onTouchStart}/>
 
-<img class:active={!blocked && active} alt="pointer" bind:this={imgRef} src={src} />
+<img class:active={!blocked && active && !hasLeft} alt="pointer" bind:this={imgRef} src={src} />
 
 <style>
   img {

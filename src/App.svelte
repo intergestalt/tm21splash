@@ -82,7 +82,7 @@
 <svelte:window on:resize={updateDimensions}/>
 
 <main bind:this={main} on:scroll={ onScroll } class:headerClicked={headerClicked}>
-	<Pointer isPointer={hovering}/>
+	<Pointer isPointer={hovering} {width} {height} />
 	{#if 0}
 		<Info {scrollTop} {scrollTopMax} {moverHeight} {width} {height}/>
 	{/if}
