@@ -4,7 +4,7 @@
 </script>
 
 <p class="links1">
-  <A text="News" href="https://transmediale.de/" />
+  <A text="News" href="https://transmediale.de/home" />
   <A text="Press" href="https://transmediale.de/press" />
   <A text="Newsletter" href="https://transmediale.de/newsletter" />
   <A text="Telegram" href="https://t.me/transmediale" newtab />
