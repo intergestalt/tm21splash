@@ -59,6 +59,10 @@
 		height = window.innerHeight
 	}
 
+	//onMount(() => {
+	//		onClick()
+	//})
+
 	/*onMount(() => {
 
 		(function loop() {

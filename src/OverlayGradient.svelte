@@ -1,5 +1,5 @@
 <script>
-  export let scrollTop, scrollTopMax
+  export let scrollTop, scrollTopMax, width, height
   export const inverted = true
 
   let styleString = ""
@@ -12,26 +12,23 @@
   }
 
 
-  const straightOffset = 6
-  const straightBlur = 25
+  const straightOffset = 7
+  const straightBlur = 15
 
   const queerOffset = 20
   const queerBlur = 15
-
-  const borderOffset = straightOffset
-  const borderBlur = straightBlur
 
   const gradient_step_1a = 100 - queerOffset + "%"
   const gradient_step_2a = 100 - queerOffset + queerBlur + "%"
   const gradient_step_1b = 100 - straightOffset + "%"
   const gradient_step_2b = 100 - straightOffset + straightBlur + "%"
-  const gradient_step_1c = 100 - borderOffset + "%"
-  const gradient_step_2c = 100 - borderOffset + borderBlur + "%"
 
   let slowness, pos, posMax, points, pointsString
 
   $: {
-    pos = (scrollTop/scrollTopMax) * 180
+    const pos = (scrollTop/scrollTopMax) * 180
+
+    const queerAngle = width > height ? 30 : 60
 
     const posArray = []
     for (let i=0; i<8; i++) {
@@ -42,18 +39,14 @@
     //console.log(Math.floor(pos), Math.round(10*wobble(pos)), posArray.map(p=>Math.floor(p)))
 
     styleString = `
-    background: linear-gradient(${   30 + Math.floor(posArray[0])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${  -30 + Math.floor(posArray[1])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${  150 + Math.floor(posArray[2])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${ -150 + Math.floor(posArray[3])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
-                linear-gradient(${  180 + Math.floor(posArray[4])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${    0 + Math.floor(posArray[5])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${   90 + Math.floor(posArray[6])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${  -90 + Math.floor(posArray[7])}deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
-                linear-gradient(${    0                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} ),
-                linear-gradient(${  180                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} ),
-                linear-gradient(${   90                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} ),
-                linear-gradient(${  -90                          }deg,  ${gradients.mint0} ${gradient_step_1c}, ${gradients.mint1} ${gradient_step_2c} );
+    background: linear-gradient(${       queerAngle + Math.floor(posArray[0])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${      -queerAngle + Math.floor(posArray[1])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${  180 -queerAngle + Math.floor(posArray[2])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${ -180 +queerAngle + Math.floor(posArray[3])}deg,  ${gradients.mint0} ${gradient_step_1a}, ${gradients.mint1} ${gradient_step_2a} ),
+                linear-gradient(${  180                                      }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${    0                                      }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${   90                                      }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} ),
+                linear-gradient(${  -90                                      }deg,  ${gradients.mint0} ${gradient_step_1b}, ${gradients.mint1} ${gradient_step_2b} );
       `
   }
 
