@@ -35,8 +35,8 @@
 	let width = window.innerWidth
 	let height = window.innerHeight
 
-	const onScroll = e => {
-		scrollTop = e.target.scrollTop
+	const onScroll = () => {
+		scrollTop = main.scrollTop
 		const scrollRel = scrollTop/scrollTopMax
 		moverOffset = -scrollRel * (moverHeight-height)
 	}
@@ -57,6 +57,7 @@
 		moverHeight = mover.offsetHeight
 		width = window.innerWidth
 		height = window.innerHeight
+		onScroll()
 	}
 
 	//onMount(() => {
