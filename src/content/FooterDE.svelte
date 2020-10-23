@@ -11,7 +11,7 @@
 </p>
 
 <p>
-  transmediale e.V., Gerichstr. 35, D-13347 Berlin
+  transmediale e.V., Gerichtstr. 35, D-13347 Berlin
   <br />
   +49 (0)30 959 994 231, info[at]transmediale.de
 </p>
