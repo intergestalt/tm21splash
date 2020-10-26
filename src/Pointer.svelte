@@ -116,7 +116,7 @@
   }
 
   :global(*, *:hover) {
-      cursor: url(/build/nullpointer.png) 1 1, crosshair !important;
+      cursor: url("nullpointer.png") 1 1, crosshair !important;
       /*cursor: crosshair;*/
   }
 </style>
