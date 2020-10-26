@@ -116,7 +116,7 @@
   }
 
   :global(*, *:hover) {
-      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAH0lEQVR42mNkoBAwjhowasCoAaMGjBowasCoAcPNAACOMAAhOO/A7wAAAABJRU5ErkJggg==), crosshair !important;
+      cursor: url(/build/nullpointer.png) 1 1, crosshair !important;
       /*cursor: crosshair;*/
   }
 </style>
