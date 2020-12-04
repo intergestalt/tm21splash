@@ -50,7 +50,8 @@
   Der erste Teil unseres Jahresprogramms bringt künstlerische Positionen zusammen, 
   die Kontrollsysteme infrage stellen und alternative Formen gesellschaftlichen Drucks 
   ausüben, um durch Taktiken der Verweigerung Raum für Möglichkeiten und Hoffnung 
-  zu schaffen.
+  zu schaffen.</p>
+<p>
   <a href="https://transmediale.de/de/content/erster-programmteil-des-einjahres-festivals">Erfahre mehr über die Künstler*innen und den ersten Programmteil.</a>
 </p>
 
