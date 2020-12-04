@@ -44,7 +44,7 @@
   COVID-19 formulierte Struktur, findet in Form von verschiedenen
   Veranstaltungsformaten in Berlin und online statt. 
 </p>
-<p>Erster Programmteil Einjahres-Festival</p>
+<h2>Erster Programmteil Einjahres-Festival</h2>
 <p>Mit einer Ausstellung in zwei Venues in Berlin und einem Filmprogramm im 
   transmediale Studio beginnen wir am 23. Januar 2021 unser Einjahres-Festival.  
   Der erste Teil unseres Jahresprogramms bringt künstlerische Positionen zusammen, 
