@@ -42,7 +42,15 @@
   sich nachhaltig mit den materiellen, technologischen und kulturellen Aspekten
   von Verweigerung auseinanderzusetzen. Diese neue, auch als Antwort auf
   COVID-19 formulierte Struktur, findet in Form von verschiedenen
-  Veranstaltungsformaten in Berlin und online statt. Das Festivaljahr beginnt am
-  23. Januar 2021 mit einer Ausstellung an drei Veranstaltungsorten in Berlin
-  und dem Launch eines Online-Programms auf der Festival- Webseite.
+  Veranstaltungsformaten in Berlin und online statt. 
 </p>
+<p>Erster Programmteil Einjahres-Festival</p>
+<p>Mit einer Ausstellung in zwei Venues in Berlin und einem Filmprogramm im 
+  transmediale Studio beginnen wir am 23. Januar 2021 unser Einjahres-Festival.  
+  Der erste Teil unseres Jahresprogramms bringt künstlerische Positionen zusammen, 
+  die Kontrollsysteme infrage stellen und alternative Formen gesellschaftlichen Drucks 
+  ausüben, um durch Taktiken der Verweigerung Raum für Möglichkeiten und Hoffnung 
+  zu schaffen.
+  <a href="https://transmediale.de/de/content/erster-programmteil-des-einjahres-festivals">Erfahre mehr über die Künstler*innen und den ersten Programmteil.</a>
+</p>
+
