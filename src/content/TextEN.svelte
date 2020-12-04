@@ -37,7 +37,7 @@
   formulated in response to COVID-19, will create a year-long engagement with
   the festival theme.
 </p>
-<p>First part of year-long festival programme</p>
+
 <p>
   With an exhibition across two venues in Berlin, and an extended film programme 
   at transmediale studio, our year-long festival begins on 23 January 2021. 
