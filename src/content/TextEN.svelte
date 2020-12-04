@@ -45,7 +45,7 @@
   the first part of our programme brings together a collection of artistic positions 
   that offer possibilities and hope through tactics for refusal. 
 </p>
- <A text="Read more about the featured artists, and the first parts of our programme." href="https://transmediale.de/content/first-part-of-year-long-festival-programme" />
+ <p class="links1"><A text="Read more about the featured artists, and the first parts of our programme." href="https://transmediale.de/content/first-part-of-year-long-festival-programme" />
 </p>
 
 
