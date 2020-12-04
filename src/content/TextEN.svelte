@@ -35,7 +35,17 @@
   explore the material, technological, and cultural aspects of refusal.
   Unfolding via online and in-person events, this new expanded structure,
   formulated in response to COVID-19, will create a year-long engagement with
-  the festival theme. The festival begins 23 January 2021 with an exhibition
-  across three venues in Berlin and the launch of an online programme on the
-  festival’s website.
+  the festival theme.
 </p>
+<p>First part of year-long festival programme</p>
+<p>
+  With an exhibition across two venues in Berlin, and an extended film programme 
+  at transmediale studio, our year-long festival begins on 23 January 2021. 
+  Challenging systems of control and exerting new socio-political pressures, 
+  the first part of our programme brings together a collection of artistic positions 
+  that offer possibilities and hope through tactics for refusal. 
+</p>
+ <p><a href="https://transmediale.de/content/first-part-of-year-long-festival-programme">Read more about the featured artists, and the first parts of our programme.</a>
+</p>
+
+
