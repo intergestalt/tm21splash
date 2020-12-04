@@ -4,6 +4,7 @@
 </script>
 
 <p class="links1">
+  <A text="Programme Update" href="https://transmediale.de/content/first-part-of-year-long-festival-programme" />
   <A text="News" href="https://transmediale.de/home" />
   <A text="Press" href="https://transmediale.de/press" />
   <A text="Newsletter" href="https://transmediale.de/newsletter" />
