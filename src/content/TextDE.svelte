@@ -49,7 +49,7 @@
   Der erste Teil unseres Jahresprogramms bringt künstlerische Positionen zusammen, 
   die Kontrollsysteme infrage stellen und alternative Formen gesellschaftlichen Drucks 
   ausüben, um durch Taktiken der Verweigerung Raum für Möglichkeiten und Hoffnung 
-  zu schaffen.</p>
-
+  zu schaffen.
 </p>
+
 
