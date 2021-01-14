@@ -1,3 +1,18 @@
+<script>
+  import A from '../A.svelte'
+
+  /*
+
+    Beispiel für externen Link:
+    <A href="https://rki.de" newtab text="Robert Koch Institut" />
+
+    Beispiel für Zwischenüberschrift:
+    <h3>Zwischenüberschrift</h3>
+
+  */
+
+</script>
+
 <p>
   Das Dilemma der Verweigerung hat zunehmend an Dringlichkeit gewonnen. Leicht
   missverstanden als Geste der Untätigkeit und Passivität versinnbildlicht

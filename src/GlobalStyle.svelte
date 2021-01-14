@@ -55,8 +55,21 @@
     color: var(--color-red);
   }
 
-  h2, p {
+  h2, h3, p {
     margin-bottom: 1.4em;
+  }
+
+  h2, h3 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  @media (max-width: 500px) {
+    h2 {
+      font-size: 22px;
+      line-height: 28px;		
+    }
   }
 
   :root {

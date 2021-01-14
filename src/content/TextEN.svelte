@@ -1,3 +1,18 @@
+<script>
+  import A from '../A.svelte'
+
+  /*
+
+    Example for external Link:
+    <A href="https://rki.de" newtab text="Robert Koch Institut" />
+
+    Example fpr Headline:
+    <h3>Headline</h3>
+
+  */
+
+</script>
+
 <p>
   The dilemma for refusal has never felt quite so urgent. Easily misunderstood
   as a gesture of inaction and passivity where nothing happens, a refusal
