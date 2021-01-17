@@ -57,20 +57,14 @@
   Die Ausstellung <i>Rendering Refusal</i> präsentiert vierzehn Künstler*innen, die 
   in ihren Arbeiten fiktive, spekulative und poetische Strategien der 
   Verweigerung umsetzen und erforschen, was entstehen kann, wenn Hoffnung und 
-  Verweigerung zusammenarbeiten.
-</p>
-<p>
-  Die Ausstellung findet in den zwei Berliner Venues – Kunstraum 
+  Verweigerung zusammenarbeiten. Die Ausstellung findet in den zwei Berliner Venues – Kunstraum 
   Kreuzberg/Bethanien und Betonhalle, Silent Green Kulturquartier – statt und 
   läuft bis zum 28. März. 
 </p>  
 <p>
   <i>Rendering Refusal</i> wird öffentlich zugänglich sein, sobald die offiziellen 
   Pandemie-Regelungen es erlauben. Remote Visits und eine umfangreiche 
-  Dokumentation machen die Ausstellung ab Februar digital erfahrbar. 
-</p>  
-<p>
-  Für die Remote Visits werden Besuchende per Videoanruf mit einer*m Guide 
+  Dokumentation machen die Ausstellung ab Februar digital erfahrbar. Für die Remote Visits werden Besuchende per Videoanruf mit einer*m Guide 
   vor Ort in einer der Venues verbunden und erleben die Ausstellung so 
   gemeinsam und in Interaktion. Durch die Remote Visits wollen wir eine 
   besondere Ausstellungserfahrung bieten, welche die Zugänglichkeit zu beiden 
@@ -87,10 +81,7 @@
   Entgegnung auf den durch die Pandemie ausgelösten Schwebezustand des Films. 
   In einer dreimonatigen Installation im transmediale studio präsentiert das 
   Film Programm neue filmische Visionen und bringt dabei die Arbeiten von 
-  Filmemacher*innen, Akademiker*innen und Performer*innen zusammen.
-</p>  
-<p>
-  Die erste Serie von <i>remote.response.request.</i> beschwört das Konzept 
+  Filmemacher*innen, Akademiker*innen und Performer*innen zusammen. Die erste Serie von <i>remote.response.request.</i> beschwört das Konzept 
   der radikalen Imagination durch Arbeiten, die dazu auffordern, uns andere 
   Lebensweisen nicht nur vorzustellen, sondern auch zu leben.
 </p>
@@ -136,7 +127,7 @@
   sozio-politische Realitäten zu formen, die auf Fürsorge, Hoffnung und Begehren
   beruhen.
 </p>
-<h3>transmediale x CTM 2021</h3>
+<h3>transmediale x CTM Festival</h3>
 <p>
   <i>rehearsal letter</i> ist eine aufgezeichnete Studiosession der Künstlerin 
   Frances Scott, die zur Entwicklung des Soundtracks ihres nächsten 
