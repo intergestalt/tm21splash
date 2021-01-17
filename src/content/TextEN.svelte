@@ -69,7 +69,8 @@ Rendering Refusal</h3>
   technology, that widen accessibility to both venues. Remote visits can be 
   booked for both venues on our website from February.
 </p>
-<h3>Film Programme – remote.response.request.</h3>
+<h3>Film Programme<br />
+  remote.response.request.</h3>
 <p>
   Conceived in response to film’s current state of suspension during the 
   pandemic, <i>remote.response.request.</i> maps new approaches to ‘add to the 
@@ -85,8 +86,8 @@ Rendering Refusal</h3>
   Due to the current COVID-19 pandemic, public access to the film programme 
   will be available as soon as government regulations allow. 
 </p>
-<h3>Theme</h3>
-<h3>for refusal</h3>
+<h3>Theme<br />
+for refusal</h3>
 <p>
   The dilemma <i>for refusal</i> has never felt quite so urgent. Easily misunderstood
   as a gesture of inaction and passivity where nothing happens, a refusal
