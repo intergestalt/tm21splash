@@ -119,7 +119,7 @@ for refusal</h3>
   its potential to form new socio-political realities grounded in care, hope,
   and desire.
 </p>
-<h3>transmediale x CTM collaboration</h3>
+<h3>transmediale x CTM Festival</h3>
 <p>
   <i>rehearsal letter</i> is a recorded studio session for transmediale x CTM 
   2021, produced as part of the soundtrack for artist Frances Scott’s 
