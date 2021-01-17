@@ -50,8 +50,8 @@
   and activists whose practices map out the ways refusal can unfold and how it 
   circumvents the status quo.
 </p>
-<h3>Exhibition</h3>
-<h3>Rendering Refusal</h3>
+<h3>Exhibition<br />
+Rendering Refusal</h3>
 <p>
   Exploring what can emerge when hope and refusal work together, <i>Rendering Refusal</i> 
   presents fourteen artists whose works enact imaginative, speculative, and 
@@ -69,8 +69,7 @@
   technology, that widen accessibility to both venues. Remote visits can be 
   booked for both venues on our website from February.
 </p>
-<h3>Film Programme</h3>
-<h3>remote.response.request.</h3>
+<h3>Film Programme – remote.response.request.</h3>
 <p>
   Conceived in response to film’s current state of suspension during the 
   pandemic, <i>remote.response.request.</i> maps new approaches to ‘add to the 
