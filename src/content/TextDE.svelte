@@ -9,6 +9,9 @@
     Beispiel für Zwischenüberschrift:
     <h3>Zwischenüberschrift</h3>
 
+    Beispiel für Kursiv:
+    <i>kursiv</i>
+
   */
 
 </script>

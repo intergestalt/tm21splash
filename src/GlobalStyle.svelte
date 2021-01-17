@@ -55,6 +55,10 @@
     color: var(--color-red);
   }
 
+  i {
+    font-style: italic;
+  }
+
   h2, h3, p {
     margin-bottom: 1.4em;
   }

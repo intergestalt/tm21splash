@@ -9,6 +9,9 @@
     Example fpr Headline:
     <h3>Headline</h3>
 
+    Example for Italics:
+    <i>italics</i>
+
   */
 
 </script>
