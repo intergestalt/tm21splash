@@ -145,7 +145,7 @@
 <p>
   <i>rehearsal letter</i> ist ab dem 28. Januar im <i>Almanac for Refusal</i> online.
 </p>   
-<h3>VORSPIEL</h3>
+<h3>Vorspiel</h3>
 <p>
  Ab dem 15. Januar präsentieren transmediale & CTM Festival die 10. 
   Jubiläumsausgabe des Pre-Festival Programmes Vorspiel. Mit einer Mischung 
