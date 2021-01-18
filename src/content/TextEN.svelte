@@ -130,7 +130,7 @@ for refusal</h3>
   composer to draw graphic scores on overhead projector rolls, which are then 
   read directly by the machine, creating ‘drawn sound synthesis’. Here, 
   drawn-sound is used as a method of re-interpreting pages from Carlos’ 
-  original scores from <i>Timesteps and Theme Tune for A Clockwork Orange (Beethovania)</i> 
+  original scores from <i>Timesteps and Theme from A Clockwork Orange (Beethovania)</i> 
   (1971).
 </p>
 <p>
