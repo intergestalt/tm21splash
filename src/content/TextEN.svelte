@@ -63,10 +63,10 @@ Rendering Refusal</h3>
 </p>
 <p>
   We will facilitate access to the exhibition both through extensive documentation
-  and remote visits. Visitors can connect via video call with an exhibition 
+  and Remote Visits. Visitors can connect via video call with an exhibition 
   guide at the venue and experience the exhibition with them. Through these 
-  remote visits, we wish to provide a unique viewing experience, enabled by 
-  technology, that widen accessibility to both venues. Remote visits can be 
+  Remote Visits, we wish to provide a unique viewing experience, enabled by 
+  technology, that widen accessibility to both venues. Remote Visits can be 
   booked for both venues on our website from February.
 </p>
 <h3>Film Programme<br />
