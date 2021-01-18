@@ -136,7 +136,7 @@ for refusal</h3>
 <p>
   <i>rehearsal letter</i> will be accessible online in the <i>Almanac for Refusal</i> from 28 January.
 </p>
-<h3>VORSPIEL</h3>
+<h3>Vorspiel</h3>
 <p>
   Starting from 15 January, the 10th-anniversary edition of Vorspiel will take 
   place online and in-person. Presented by transmediale and CTM, the 
