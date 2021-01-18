@@ -139,7 +139,7 @@
   Overhead-Projektorrollen zu zeichnen, die dann direkt von der Maschine gelesen 
   werden und eine ‘gezeichnete Klangsynthese’ erzeugen. In Scotts Videoarbeit 
   wird diese Methode verwendet, um Seiten aus Carlos' Originalpartituren von 
-  <i>Timesteps und Theme Tune for A Clockwork Orange (Beethovania)</i> (1971) 
+  <i>Timesteps und Theme from A Clockwork Orange (Beethovania)</i> (1971) 
   neu zu interpretieren. 
 </p>  
 <p>
